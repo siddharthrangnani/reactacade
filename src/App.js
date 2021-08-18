@@ -32,8 +32,8 @@ function App() {
       > </ExpenseItem>
       <ExpenseItem
        title={expenses[1].title}
-       amount={expenses[1].amount}
-       date={expenses[1].date}
+       amount={expenses[1].amount[1]}
+       date={expenses[1].date[1]}
 ></ExpenseItem>
     </div>
   );
